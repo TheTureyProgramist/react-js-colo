@@ -1,10 +1,27 @@
-export const FriendsItem = ({ friends }) => {
-  const { id, avatar, isOnline, name } = friends;
+import styled from "styled-components";
+const Names = styled.p`
+  color: blue;
+  font-size: 20px;
+  margin-bottom: 10px;
+`;
+const Item = styled.li`
+  display: flex;
+  height: 100px;
+  width: 100%;
+  gap: 20px;
+`;
+const Photo = styled.img`
+  height: 100px;
+  width: auto;
+`;
+
+export const FriendsItem = ({ friend }) => {
+  const { id, avatar, isOnline, name } = friend;
   return (
-    <li className="item">
+    <Item>
       <span className={`status${isOnline ? " online" : ""}`}></span>
-      <img className="avatar" src={avatar} alt={name} width="48" />
-      <p className="name">{name}</p>
-    </li>
+      <Photo src={avatar} alt={name} width="48" />
+      <Names>{name}</Names>
+    </Item>
   );
 };
