@@ -9,10 +9,12 @@ const Item = styled.li`
   height: 100px;
   width: 100%;
   gap: 20px;
+  background-color: violet;
 `;
 const Photo = styled.img`
-  height: 100px;
+  height: 95px;
   width: auto;
+  border: 3px double orange;
 `;
 
 export const FriendsItem = ({ friend }) => {
