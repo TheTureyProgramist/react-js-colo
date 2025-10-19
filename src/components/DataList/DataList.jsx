@@ -15,6 +15,7 @@ export const DataList = () => {
   const DataList = styled.ul`
   display: flex;
   background-color: skyblue;
+  padding: 0;
   `;
   return (
     <DataStatic>
