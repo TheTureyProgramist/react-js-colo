@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/thetureyprogramist.github.io/react-js-colo/static/css/main.31d6cfe0.css",
+    "main.js": "/thetureyprogramist.github.io/react-js-colo/static/js/main.92e87bca.js",
+    "index.html": "/thetureyprogramist.github.io/react-js-colo/index.html",
+    "main.92e87bca.js.map": "/thetureyprogramist.github.io/react-js-colo/static/js/main.92e87bca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.92e87bca.js"
+  ]
+}
